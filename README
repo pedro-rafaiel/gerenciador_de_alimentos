@@ -1,0 +1,28 @@
+Tecnologias Utilizadas:
+Node.js
+Express.js
+MongoDB
+Mongoose
+
+Rotas da API:
+Listar todos os alimentos (GET): /api/foods
+Buscar um alimento específico (GET): /api/foods/:id
+Criar um novo alimento (POST): /api/foods
+Atualizar um alimento existente (PUT): /api/foods/:id
+Excluir um alimento (DELETE): /api/foods/:id
+
+Estrutura do Banco de Dados
+O banco de dados utilizado é o MongoDB, e a estrutura dos documentos é a seguinte:
+
+{
+  "_id": "ID único do alimento",
+  "name": "Nome do alimento",
+  "category": "Categoria do alimento",
+  "quantity": "Quantidade disponível",
+  "expirationDate": "Data de validade",
+  "price": "Preço do alimento"
+}
+
+Acesse a API em http://localhost:3000.
+
+raleu mofi, raleu
